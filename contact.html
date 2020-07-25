@@ -10,15 +10,19 @@
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
   <!-- Start Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Navbar</span>
+    <a class="navbar-brand" href="#">
+        <img src="../homework-two/navbarimg.png" style="display: inline-block;">
+        <span style="display: inline-block;">Ashli Hanson</span>
+      </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -36,13 +40,20 @@
     </div>
   </nav>
 
+  <header><h1>Let's connect!</h1></header>
+
   <form>
     <div class="form-group">
-      <label for="formGroupExampleInput">Example label</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+      <label for="formGroupExampleInput">Name</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example : Michael Scott">
     </div>
     <div class="form-group">
-      <label for="formGroupExampleInput2">Another label</label>
-      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+      <label for="formGroupExampleInput2">Email</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Example : mscott@dundermifflin.com">
     </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput3">Message</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Drop a line here!"> 
+    </div>
+    <button type="button" class="btn btn-warning">Send it!</button>
   </form>
