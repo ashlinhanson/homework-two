@@ -6,3 +6,11 @@ body {
      text-align: center;
  }
 
+.btn {
+    background-color : pink;
+    border : pink;
+    border-radius : 50%;
+    margin-top : 5px;
+    
+}
+
