@@ -1,6 +1,6 @@
 body {
     background-color: lavender;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Pontano Sans', sans-serif;
 }
  .portfolio-p {
      text-align: center;
@@ -13,4 +13,16 @@ body {
     margin-top : 5px;
     
 }
+ .card-folio {
+     background-color : rgb(255, 237, 136);
+ }
 
+ .navbar {
+    background-color : rgb(154, 205, 214);
+     border : solid 5px;
+     border-color : white;
+ }
+
+ .container {
+     border : black 5px;
+ }
