@@ -9,9 +9,13 @@ body {
 .btn {
     background-color : pink;
     border : pink;
-    border-radius : 50%;
-    margin-top : 5px;
-    
+    color : rgb(66, 66, 66);
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+.btn:hover {
+    background-color : rgb(250, 143, 161)
 }
  .card-folio {
      background-color : rgb(255, 237, 136);
@@ -19,10 +23,41 @@ body {
 
  .navbar {
     background-color : rgb(154, 205, 214);
-     border : solid 5px;
-     border-color : white;
  }
 
- .container {
-     border : black 5px;
+ .container-folio {
+     margin : 20px;
+
+ }
+
+ .footer {
+        position : fixed;
+        left : 0;
+        bottom : 0;
+        width : 100%;
+        background-color : rgb(255, 237, 136);
+        color : black;
+        text-align : center;
+        margin-top : 30px;
+ }
+
+ .folioheader {
+     font-weight : bold;
+     text-align : center;
+ }
+
+ .card-body {
+     text-align : center;
+ }
+
+ .card-title {
+     font-weight : bolder;
+ }
+
+ .card-body-index {
+     margin : 10px;
+ }
+
+ h1 {
+     font-weight : bolder;
  }
