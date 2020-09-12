@@ -1,6 +1,7 @@
 body {
     background-color: lavender;
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-image: url("bg2.jpg")
 }
  .portfolio-p {
      text-align: center;
@@ -22,28 +23,33 @@ body {
  }
 
  .navbar {
-    background-color : rgb(154, 205, 214);
+    background-color : #9DAAC8;
  }
 
  .container-folio {
      margin : 20px;
+    padding-bottom: 20px;
 
  }
 
  .footer {
-        position : fixed;
-        left : 0;
-        bottom : 0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
         width : 100%;
+        height: 40px;
         background-color : rgb(255, 237, 136);
         color : black;
         text-align : center;
         margin-top : 100px;
  }
 
+
+
  .folioheader {
      font-weight : bold;
      text-align : center;
+     color: #473D60;
  }
 
  .card-body {
@@ -59,15 +65,17 @@ body {
  }
 
  h1 {
-     font-weight : bolder;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 60px;
+    color : #69648C;
  }
 
  .fa {
     padding: 5px;
-    font-size: 20px;
-    width: 30px;
+    font-size: 30px;
+    width: 40px;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 40%;
   }
 
   .fa:hover {
@@ -82,4 +90,30 @@ body {
   .fa-linkedin {
     background: rgb(154, 205, 214);
     color: white;
+  }
+
+  .fa-github{
+    background: rgb(154, 205, 214);
+    color: white;
+  }
+
+  .nav-link {
+      font-size: 32px;
+  }
+
+  .container-intro {
+      padding-bottom: 40px;
+  }
+
+  .card {
+      border : solid, 5 px;
+      border-color : rgb(255, 237, 136);
+  }
+
+  #find-links {
+      padding : 5px;
+  }
+
+  .jumbotron {
+   background-color: rgba(255,255,255,.70);
   }
