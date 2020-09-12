@@ -1,14 +1,13 @@
 body {
     background-color: lavender;
     font-family: 'Oswald', sans-serif;
-    background-image: url("bg2.jpg")
 }
  .portfolio-p {
      text-align: center;
  }
 
 .btn {
-    background-color : pink;
+    background-color : #D9ADB5;
     border : pink;
     color : rgb(66, 66, 66);
     margin-top : 10px;
@@ -23,7 +22,7 @@ body {
  }
 
  .navbar {
-    background-color : #9DAAC8;
+    background-color : #8dd9f4;
  }
 
  .container-folio {
@@ -83,17 +82,17 @@ body {
   }
 
   .fa-instagram {
-    background: rgb(154, 205, 214);
+    background: #D9ADB5;
     color: white;
   }
   
   .fa-linkedin {
-    background: rgb(154, 205, 214);
+    background: #D9ADB5;
     color: white;
   }
 
   .fa-github{
-    background: rgb(154, 205, 214);
+    background: #D9ADB5;
     color: white;
   }
 
