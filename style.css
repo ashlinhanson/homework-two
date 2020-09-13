@@ -26,8 +26,7 @@ body {
 }
 
 .container-folio {
-  margin: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -39,7 +38,6 @@ body {
   background-color: rgb(255, 237, 136);
   color: black;
   text-align: center;
-  margin-top: 100px;
 }
 
 .folioheader {
@@ -105,6 +103,7 @@ h1 {
 .card {
   border: solid;
   border-color: rgb(255, 237, 136);
+  margin: 10px;
 }
 
 #find-links {
