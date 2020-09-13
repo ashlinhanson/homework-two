@@ -7,7 +7,7 @@ body {
  }
 
 .btn {
-    background-color : #D9ADB5;
+    background-color : #F5CBC9;
     border : pink;
     color : rgb(66, 66, 66);
     margin-top : 10px;
@@ -82,17 +82,17 @@ body {
   }
 
   .fa-instagram {
-    background: #D9ADB5;
+    background: #F5CBC9;
     color: white;
   }
   
   .fa-linkedin {
-    background: #D9ADB5;
+    background: #F5CBC9;
     color: white;
   }
 
   .fa-github{
-    background: #D9ADB5;
+    background: #F5CBC9;
     color: white;
   }
 
@@ -115,4 +115,8 @@ body {
 
   .jumbotron {
    background-color: rgba(255,255,255,.70);
+  }
+
+#profileImg {
+     float: right;
   }
