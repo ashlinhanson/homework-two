@@ -18,5 +18,5 @@ Third is some basic contact information to get in touch with me.
 I chose a simple and minimal design for a clean user experience with small personal touches with placeholder images and colors. I find minimal websites with well coordinated colors pleasing and easy to use.  
 
 This webpage was designed with 
-# Bootstrap, CSS, and HTML5.
+## Bootstrap, CSS, and HTML5.
 
