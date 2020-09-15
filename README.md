@@ -9,7 +9,7 @@ This webpage consists of three pages total.
 First being a quick bio about myself.
 ![aboutme](assets/Media/readme-shots/about.png)
 
-Second is my portfolio with examples of her work.
+Second is my portfolio with examples of my work.
 ![portfolio](assets/Media/readme-shots/portfolio.png)
 
 Third is some basic contact information to get in touch with me.
