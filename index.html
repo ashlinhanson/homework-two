@@ -20,15 +20,15 @@
 <body>
   <!-- Nav bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-blue">
-    <a class="navbar-brand" href="#"> 
-      <img src="navbarimg.png" style="display: inline-block; height: 75px; width: 75px" alt="logo">
-      <span style="display: inline-block;"></span>
-    </a>
+    <div class="navbar-brand" id="name"> 
+      <img src="navbarimg.png" style="height: 75px; width: 75px; display: inline-block" alt="logo" class="pb-2">
+      Ashli Hanson
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse py-2 justify-content-end" id="navbarSupportedContent">
       <ul class="nav navbar-nav navbar-right">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About</a>
@@ -43,7 +43,8 @@
     </div>
   </nav>
   <!-- About Me Card -->
-  <h1 class="display-4" style="font-size: 100px; margin-left: 30px;">Hey there!</h1>
+  <div class="container">
+  <h1 class="display-4 text-right" style="font-size: 100px">Hey there!</h1>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <img src="profile.jpeg" alt="profile" id="profileImg" style="height: 300px;">
