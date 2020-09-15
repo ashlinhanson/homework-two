@@ -132,20 +132,17 @@ h1 {
 }
 
 #contactP {
-    font-size : 20px;
+  font-size: 20px;
 }
 
 .listItems {
-    font-size : 20px;
+  font-size: 20px;
 }
 
-.links{
-    color: #a6d6e8
+.links {
+  color: #a6d6e8;
 }
 
 #contactContent {
-    text-align: center;
+  text-align: center;
 }
-
-
-
