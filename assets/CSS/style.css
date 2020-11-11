@@ -146,3 +146,8 @@ h1 {
 #contactContent {
   text-align: center;
 }
+
+#backgroundCard {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
