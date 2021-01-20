@@ -4,7 +4,7 @@ body {
 }
 
 html {
-  scroll-behavior : smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 .btn {
@@ -24,7 +24,6 @@ h1 {
   font-size: 60px;
   color: black;
 }
-
 
 .fa {
   padding: 5px;
@@ -78,13 +77,13 @@ h1 {
 }
 
 #vantajs {
-  width: auto; 
+  width: auto;
 }
 
 #openingHead {
   font-size: 64px !important;
   color: black;
-  padding-top: 350px !important
+  padding-top: 350px !important;
 }
 
 #openingText {
@@ -125,7 +124,7 @@ h1 {
   border-top: solid black;
 }
 
-.card{
+.card {
   background: transparent;
 }
 
