@@ -6,9 +6,6 @@ body {
 html {
   scroll-behavior : smooth !important;
 }
-.portfolio-p {
-  text-align: center;
-}
 
 .btn {
   background-color: #f5cbc9;
@@ -55,42 +52,17 @@ h1 {
   color: black;
 }
 
-.nav-link {
-  font-size: 32px;
-  float: right;
-}
-
-.container-intro {
-  padding-bottom: 40px;
-}
-
-.card {
-  width: 100%;
-  background-color: transparent;
-  border: solid black;
-}
-
 #find-links {
   padding: 5px;
 }
 
-.jumbotron {
-  background-color: white;
-  border: solid 5px;
-  border-color: rgb(255, 237, 136);
-  margin: 10px;
-}
-
 #profileImg {
-  float: right;
-  border-radius: 50%;
   border: solid 5px;
-  border-color: #f5cbc9;
+  border-color: black;
   margin: 10px;
-}
-
-#contactP {
-  font-size: 20px;
+  height: 300px;
+  width: 250px;
+  border-radius: 100%;
 }
 
 .listItems {
@@ -103,15 +75,6 @@ h1 {
 
 #contactContent {
   text-align: center;
-}
-
-#backgroundCard {
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-}
-
-#contactCard{
-  margin-bottom: 40px !important;
 }
 
 #vantajs {
@@ -159,5 +122,17 @@ h1 {
 }
 
 #portfolio {
+  border-top: solid black;
+}
+
+.card{
+  background: transparent;
+}
+
+#contactP {
+  font-size: 24px;
+}
+
+#contact {
   border-top: solid black;
 }
