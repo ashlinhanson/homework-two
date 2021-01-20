@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>About Ashli</title>
+    <title>Ashli</title>
 
     <!-- Bootstrap and CSS links -->
     <link rel="stylesheet" href="assets/CSS/reset.css" />
@@ -17,12 +17,7 @@
 
   <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
-      <div class="navbar-brand" id="name">
-        <!--nav bar image-->
-        <img src="assets/Media/navbarimg.png" style="height: 75px; width: 75px; display: inline-block" alt="logo" class="pb-2"/>
-        Ashli Hanson
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <!--dropdown menu for navbar-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,17 +26,26 @@
       <div class="collapse navbar-collapse py-2 justify-content-end" id="navbarSupportedContent">
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> 
+    <div id="vantajs">
+      <div>
+      <p class="px-5" id="openingHead"><b>I'm Ashli Hanson</b></p>
+      <p class="px-5" id="openingText">and I love creating things.</p>
+      <a href="https://www.instagram.com/ashlihanson/?hl=en" target="_blank" class="fa fa-instagram pl-5"></a>
+      <a href="https://www.linkedin.com/in/ashli-hanson-2689091b0/" target="_blank" class="fa fa-linkedin pl-5"></a>
+      <a href="https://github.com/ashlinhanson" target="_blank" class="fa fa-github pl-5"></a>
+      <div class="container">
+        <a data-scroll href="#full">
+          <div class="arrow"></div>
+        </a>
+      </div>
+      <div id="full"></div>
+      </div>
+    </div>
     <!--About Me Bio-->
     <div class="container" id="about">
       <h1 class="display-4 text-right" style="font-size: 100px">Hey there!</h1>
@@ -169,7 +173,7 @@
                 <div class="container-sm col-sm-12" id="contactContent">
                   <h1>Lets Connect! </h1>
                   <p id="contactP">
-                    I would love to hear from you!
+                    I love hearing from potential employers, collaborators and new people! 
                     <br><br>
                     <!--Contact list-->
                     <div class="list">
@@ -194,12 +198,7 @@
     </div>
   </div>
 </div>
-
-    <!--footer-->
-    <div class="footer mt-5">
-      <a href="https://www.instagram.com/ashlihanson/?hl=en" target="_blank" class="fa fa-instagram"></a>
-      <a href="https://www.linkedin.com/in/ashli-hanson-2689091b0/" target="_blank" class="fa fa-linkedin"></a>
-      <a href="https://github.com/ashlinhanson" target="_blank" class="fa fa-github"></a>
+    <div id="vantajs">
     </div>
 
     <!-- jQuery CDN -->
@@ -209,5 +208,23 @@
 
     <!-- Bootstrap JavaScript CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.fog.min.js"></script>
+    <script>
+      VANTA.FOG({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      highlightColor: 0xcfb0f2,
+      midtoneColor: 0xd99458,
+      lowlightColor: 0x0,
+      baseColor: 0xe2edf5,
+      speed: 0.70,
+      zoom: 0.50
+})
+    </script>
   </body>
 </html>

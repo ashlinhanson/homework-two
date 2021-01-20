@@ -2,6 +2,10 @@ body {
   background-color: lavender;
   font-family: "Oswald", sans-serif;
 }
+
+html {
+  scroll-behavior : smooth !important;
+}
 .portfolio-p {
   text-align: center;
 }
@@ -60,23 +64,17 @@ body {
 }
 
 h1 {
-  font-family: "Grand Hotel", cursive;
+  font-family: "Oswald", cursive;
   font-size: 60px;
-  color: #69648c;
+  color: black;
 }
 
-#name {
-  font-family: "Grand Hotel", cursive;
-  font-size: 60px;
-  color: #69648c;
-}
 
 .fa {
   padding: 5px;
-  font-size: 30px;
-  width: 40px;
-  text-decoration: none;
-  border-radius: 40%;
+  font-size: 20px;
+  width: 30px;
+  border-radius: 100%;
 }
 
 .fa:hover {
@@ -84,18 +82,18 @@ h1 {
 }
 
 .fa-instagram {
-  background: #f5cbc9;
-  color: white;
+  background: none;
+  color: black;
 }
 
 .fa-linkedin {
-  background: #f5cbc9;
-  color: white;
+  background: none;
+  color: black;
 }
 
 .fa-github {
-  background: #f5cbc9;
-  color: white;
+  background: none;
+  color: black;
 }
 
 .nav-link {
@@ -155,4 +153,43 @@ h1 {
 
 #contactCard{
   margin-bottom: 40px !important;
+}
+
+#vantajs {
+  width: auto; 
+}
+
+#openingHead {
+  font-size: 64px !important;
+  color: black;
+  padding-top: 350px !important
+}
+
+#openingText {
+  color: black;
+  font-size: 24px;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  height: 50vh;
 }
