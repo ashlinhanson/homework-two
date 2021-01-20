@@ -193,3 +193,7 @@ h1 {
   background-color: transparent;
   height: 50vh;
 }
+
+#skills {
+  justify-content: center;
+}

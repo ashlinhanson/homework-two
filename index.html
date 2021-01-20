@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/CSS/reset.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Oswald:wght@300&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/CSS/style.css" />
@@ -46,26 +47,91 @@
       <div id="full"></div>
       </div>
     </div>
-    <!--About Me Bio-->
-    <div class="container" id="about">
-      <h1 class="display-4 text-right" style="font-size: 100px">Hey there!</h1>
-      <div class="jumbotron jumbotron-fluid my-5">
-        <div class="container">
-          <!--profile photo-->
-          <img src="assets/Media/me.jpeg" alt="profile" id="profileImg" style="height: 300px"/>
-          <!--bio paragraph-->
-          <p class="lead">
-            My name is Ashli Hanson and I am a Full Stack web developer residing
-            in Austin, Texas!
-            <br />
-            I love building and creating things! 
-            <br />
-            My skills include : 
-          </p>
+        <div class="text-center col-12 py-5" id="skills">
+          <h1><b>Skills</b></h1>
+          <div class="row py-5">
+            <div class="col-2">
+              <i class="devicon-javascript-plain" 
+                style="font-size:70px;"
+              ></i>
+              </div>
+            <div class="col-2">
+              <i class="devicon-bootstrap-plain"
+                style="font-size:70px;"
+              ></i>
+            </div>
+            <div class="col-2">
+                <i class="devicon-nodejs-plain"
+                  style="font-size:70px;"
+                ></i>
+            </div>
+          <div class="col-2">
+            <i class="devicon-react-original"
+              style="font-size:70px;"
+            ></i>
+          </div>
+          <div class="col-2">
+            <i class="devicon-html5-plain"
+              style="font-size:70px;"
+            ></i>
+          </div>
+          <div class="col-2">
+            <i class="devicon-css3-plain"
+              style="font-size:70px;"
+            ></i>
+          </div>
         </div>
-      </div>
-    </div>
-    <h1 class="folioheader" id="portfolio">Project Examples</h1>
+          <div class="row py-5">
+            <div class="col-2">
+              <i class="devicon-express-original"
+                style="font-size:70px;"
+              ></i>
+            </div>
+            <div class="col-2">
+              <i class="devicon-github-original colored"
+                style="font-size:70px;"
+              ></i>
+            </div>
+            <div class="col-2">
+              <i class="devicon-heroku-line"
+                style="font-size:70px;"
+              ></i>
+            </div>
+            <div class="col-2">
+              <i class="devicon-jquery-plain"
+                style="font-size:70px;"
+              ></i>
+            </div>
+            <div class="col-2">
+              <i class="devicon-mysql-plain"
+                style="font-size:70px;"
+              ></i>
+            </div>
+            <div class="col-2">
+              <i class="devicon-visualstudio-plain"
+                style="font-size:70px;"
+              ></i>
+            </div>
+          </div>
+            <div class="row py-5">
+              <div class="col-4">
+                <i class="devicon-mongodb-plain"
+                  style="font-size:70px;"
+                ></i>
+              </div>
+              <div class="col-4">
+                <i class="devicon-npm-original-wordmark"
+                  style="font-size:70px;"
+                ></i>
+              </div>
+              <div class="col-4">
+                <i class="devicon-slack-plain"
+                  style="font-size:70px;"
+                ></i>
+              </div>
+          </div>
+
+    <h1 class="folioheader" id="portfolio">Projects</h1>
     <!--top row of card-->
   <div class="card my-5" id="backgroundCard">
     <div class="container-folio">
@@ -172,6 +238,7 @@
               <p class="card-text">
                 <div class="container-sm col-sm-12" id="contactContent">
                   <h1>Lets Connect! </h1>
+                  <img src="assets/Media/me.jpeg" alt="profile" id="profileImg" style="height: 300px"/>
                   <p id="contactP">
                     I love hearing from potential employers, collaborators and new people! 
                     <br><br>
@@ -208,8 +275,12 @@
 
     <!-- Bootstrap JavaScript CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!--the vanta.js cdns-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.fog.min.js"></script>
+    
+    <!--the vanta javascript code-->
     <script>
       VANTA.FOG({
       el: "body",
