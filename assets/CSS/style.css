@@ -60,7 +60,7 @@ h1 {
   border-color: black;
   margin: 10px;
   height: 300px;
-  width: 250px;
+  width: 230px;
   border-radius: 100%;
 }
 
@@ -138,4 +138,9 @@ h1 {
 
 #navbarSupportedContent{
   justify-content: right !important;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
 }
