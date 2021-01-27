@@ -13,14 +13,14 @@ h1 {
   color: black;
 }
 
-.fa {
+.fab{
   padding: 5px;
   font-size: 20px;
   width: 30px;
   border-radius: 100%;
 }
 
-.fa:hover {
+.fab:hover {
   color: rgb(154, 86, 86);
 }
 
@@ -54,10 +54,6 @@ h1 {
 
 .listItems {
   font-size: 20px;
-}
-
-.links {
-  color: #a6d6e8;
 }
 
 #contactContent {
@@ -152,4 +148,8 @@ button:hover {
   background-color: rgb(154, 86, 86);
   color: black;
   border: white;
+}
+
+#contactIcons{
+  font-size: 40px !important;
 }
