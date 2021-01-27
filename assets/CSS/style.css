@@ -150,3 +150,18 @@ h1 {
   left: 0;
   top: 0;
 }
+
+button{
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  border: black;
+}
+
+button:hover {
+  background-color: rgb(154, 86, 86);
+  color: black;
+  border: white;
+}
