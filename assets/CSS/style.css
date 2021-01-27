@@ -144,3 +144,9 @@ h1 {
 .carousel-item-prev {
   display: block;
 }
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+}
