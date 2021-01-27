@@ -7,18 +7,6 @@ html {
   scroll-behavior: smooth !important;
 }
 
-/* .btn {
-  background-color: #f5cbc9;
-  border: pink;
-  color: rgb(66, 66, 66);
-  margin-top: 10px;
-  margin-bottom: 10px;
-} */
-
-/* .btn:hover {
-  background-color: rgb(250, 143, 161);
-} */
-
 h1 {
   font-family: "Oswald", cursive;
   font-size: 60px;
