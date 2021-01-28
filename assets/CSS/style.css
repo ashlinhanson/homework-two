@@ -162,9 +162,7 @@ h1 {
 }
 
 #portfolioCards{
-  overflow: auto !important;
-  display: row !important;
-  width: 100vw;
+  overflow-x: scroll !important;
 }
 
 .card-img-top {
