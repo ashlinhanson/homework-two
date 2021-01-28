@@ -110,6 +110,8 @@ h1 {
 
 .card {
   background: transparent;
+  display: inline-block;
+  border: none;
 }
 
 #contactP {
@@ -135,7 +137,7 @@ h1 {
   top: 0;
 }
 
-button{
+.btn {
   background-color: black;
   color: white;
   border-radius: 30px;
@@ -144,7 +146,7 @@ button{
   border: black;
 }
 
-button:hover {
+.btn:hover {
   background-color: rgb(154, 86, 86);
   color: black;
   border: white;
@@ -153,3 +155,21 @@ button:hover {
 #contactIcons{
   font-size: 40px !important;
 }
+
+#portfolioCards{
+  overflow: auto !important;
+  display: row !important;
+  width: 100vw;
+}
+
+.card-img-top {
+  border-radius: 20px !important;
+  text-align: center !important;
+  width: 200px !important;
+  height: 200px !important;
+  
+  }
+
+  #indexCont {
+    height: auto !important;
+  }
