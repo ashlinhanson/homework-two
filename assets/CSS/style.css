@@ -188,6 +188,7 @@ h1 {
   width: 10px;
   border-radius: 20px;
   -webkit-overflow-scrolling: Auto;
+  display: block !important;
 }
 
 /* Track */
