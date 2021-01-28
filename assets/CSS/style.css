@@ -179,3 +179,7 @@ h1 {
   #indexCont {
     height: auto !important;
   }
+
+  .card-text{
+    height: 100px;
+  }
