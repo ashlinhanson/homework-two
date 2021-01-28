@@ -86,9 +86,15 @@ h1 {
   transition: border-width 150ms ease-in-out;
 }
 
+.folio-arrow {
+  transform: rotate(-45deg);
+  float: right;
+}
+
 .arrow:hover {
   border-bottom-width: 4px;
   border-right-width: 4px;
+  padding: 10px;
 }
 
 .container {
@@ -181,3 +187,5 @@ h1 {
   .card-text{
     height: 100px;
   }
+
+  
