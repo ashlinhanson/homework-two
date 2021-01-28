@@ -5,7 +5,7 @@ An original website carefully curated for myself to showcase my portfolio and ta
 ![Landing](assets/Media/readme-shots/landing.png)
 
 ## Use Instructions 
-Click on the link above and scroll the one page website and view my skills, project portfolio, and contact information.
+Click on the deployed link above and scroll the one page website and view my skills, project portfolio, and contact information.
 
 ## Installation
 To run this locally, you will need to clone the repository to your local machine.
