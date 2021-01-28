@@ -1,22 +1,25 @@
 # Portfolio
+An original website carefully curated for myself to showcase my portfolio and talent as a web developer.
 
-## Deployed Page : https://ashlinhanson.github.io/portfolio/
+# [Check it out!](https://ashlinhanson.github.io/portfolio/)
+![Landing](assets/Media/readme-shots/landing.png)
 
+## Use Instructions 
+Click on the link above and scroll the one page website and view my skills, project portfolio, and contact information.
 
-Portfolio website created by Ashli Hanson, for Ashli Hanson. See the link above for the deployed version. 
+## Installation
+To run this locally, you will need to clone the repository to your local machine.
 
-This webpage consists of three pages total.
-First being a quick bio about myself.
-![aboutme](assets/Media/readme-shots/about.png)
+HTTPS:
+````
+$ git clone https://github.com/ashlinhanson/portfolio.git
+````
+SSH:
+````
+$ git clone git@github.com:ashlinhanson/portfolio.git
+````
+Once it has been cloned, open the index.html document in your preferred browser.
 
-Second is my portfolio with examples of my work.
-![portfolio](assets/Media/readme-shots/portfolio.png)
-
-Third is some basic contact information to get in touch with me.
-![contact](assets/Media/readme-shots/contact.png)
-
-I chose a simple and minimal design for a clean user experience with small personal touches with placeholder images and colors. I find minimal websites with well coordinated colors pleasing and easy to use.  
-
-This webpage was designed with 
-## Bootstrap, CSS, and HTML5.
+## Technologies Used
+Bootstrap, Vanta.js, CSS, and HTML5.
 
