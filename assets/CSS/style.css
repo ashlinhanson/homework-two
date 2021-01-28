@@ -182,3 +182,23 @@ h1 {
   .card-text{
     height: 100px;
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.297);
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  height: 5px;
+  border-radius: 20px;
+}
+
