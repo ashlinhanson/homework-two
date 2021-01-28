@@ -167,7 +167,8 @@ h1 {
   text-align: center !important;
   width: 200px !important;
   height: 200px !important;
-  
+  border: solid 3px;
+  border-color: black;
   }
 
   #indexCont {
