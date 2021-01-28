@@ -110,8 +110,13 @@ h1 {
 
 .card {
   background: transparent;
-  display: inline-block;
+  display: center;
   border: none;
+  width: 350px;
+  min-height: 450px;
+  min-width: 350px;
+  margin-right: 5px;
+
 }
 
 #contactP {
