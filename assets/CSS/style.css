@@ -186,7 +186,7 @@ h1 {
   .carousel-control-prev,
   .carousel-control-next {
     height: 50px;
-    top: 50%;
+    top: 40%;
     width: 50px;
     background: rgba(154, 86, 86, 0.55);
     border-radius: 100px;
