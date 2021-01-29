@@ -22,4 +22,4 @@ Once it has been cloned, open the index.html document in your preferred browser.
 
 ## Technologies Used
 Bootstrap, Vanta.js, CSS, and HTML5.
-
+ 
